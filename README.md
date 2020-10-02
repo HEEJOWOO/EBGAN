@@ -35,3 +35,32 @@ EBGAN Architecture
 * D부분의 Auto Encoder가 Reconstruction을 잘 할 경우 D의 출력, 즉 입력에 대한 E는 낮아짐
 * Auto Encoder가 G의 output을 잘 복원했기에 Data Distribution이 비슷해져 밀도가 높고 E는 낮게됨
 
+Regularizer
+-----------
+![image](https://user-images.githubusercontent.com/61686244/94902110-a4d50800-04d2-11eb-911f-5b5229ac20c7.png)
+
+MNIST / GAN, EBGAN 안전성 실험 / 측정 방법 : Inception score
+------------------------------------------------------------
+![image](https://user-images.githubusercontent.com/61686244/94902249-d221b600-04d2-11eb-92e5-31c7cf3d4908.png)
+![image](https://user-images.githubusercontent.com/61686244/94902302-e4035900-04d2-11eb-8723-10503d59a38d.png)
+
+LSUN
+----
+![image](https://user-images.githubusercontent.com/61686244/94902321-ee255780-04d2-11eb-8649-2b4a896bd8e4.png)
+CelebA
+------
+![image](https://user-images.githubusercontent.com/61686244/94902347-fb424680-04d2-11eb-9cde-18999b388767.png)
+
+ImageNet 잔디, 바다, 산, 건물
+-----------------------------
+![image](https://user-images.githubusercontent.com/61686244/94902452-23ca4080-04d3-11eb-874e-09555d11bfaa.png)
+
+Conclusions
+-----------
+* 기존의 GAN과는 다르게 결과를 확률로 나타내지 않고 E로 나타냈다라는점
+* 간단한 Hinge Loss를 사용했을 때 이 모델이 수렴한다는 것에 대한 증명
+* D를 Auto-Encoder 구조로 놓고, E를 Reconstruction Error로 본 EBGAN의 Frame Work 제안
+* EBGAN뿐만 아니라 일반적인  GAN에 둘 다 효과적인 모델구조와 Hyper-Parameter
+* ImageNet DataSet 기반으로 256x256의 높은 해상도 img를 생성하는 EBGAN Model
+
+
