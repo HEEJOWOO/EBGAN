@@ -18,8 +18,9 @@ EBGAN Loss Function과 Optimality
 Nash Equilibrium을 이루는 최적의 G와 D
 ------------------------------------
 ![image](https://user-images.githubusercontent.com/61686244/94901546-c2ee3880-04d1-11eb-96c1-a3b516233b50.png)
-![image](https://user-images.githubusercontent.com/61686244/94901675-f8932180-04d1-11eb-8551-a806968aa0f4.png)
-![image](https://user-images.githubusercontent.com/61686244/94901718-0779d400-04d2-11eb-9670-3d78ebee9e0d.png)
+![image](https://user-images.githubusercontent.com/61686244/94902883-dac6bc00-04d3-11eb-9744-206dc8598fcc.png)
+![image](https://user-images.githubusercontent.com/61686244/94902900-e31ef700-04d3-11eb-84a1-1bad66ef6f8f.png)
+
 
 * 첫 번째로 G,D의 최적의 값 V가 =m 이라는 것을 증명하기위해 앞에서 보여드린 V(G,D)의 식을 가져와 L_D의 값을 그대로 value Function에 대입을 하게 되면 분배 법칙에 의해서 식 5를 만들 수 있고, 노이즈 z는 최적의 G의 상황 때문에 합쳐 저서 식 6으로 만들 수 있음
 * 식 6의 data의 확률을 a로 최적의 G의 확률을 b로 D를 x로 두고 치환하게 되면 ay+b(m-y)로 표현을 할 수 있음
