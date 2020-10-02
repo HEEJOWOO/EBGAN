@@ -47,6 +47,7 @@ MNIST / GAN, EBGAN 안전성 실험 / 측정 방법 : Inception score
 LSUN
 ----
 ![image](https://user-images.githubusercontent.com/61686244/94902321-ee255780-04d2-11eb-8649-2b4a896bd8e4.png)
+
 CelebA
 ------
 ![image](https://user-images.githubusercontent.com/61686244/94902347-fb424680-04d2-11eb-9cde-18999b388767.png)
